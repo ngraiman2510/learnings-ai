@@ -20,18 +20,18 @@ This repository is a learning journal, so examples may grow and change as I lear
 
 ## What I'm working on
 
-The [`python-learning/`](./python-learning/) folder contains the current Python
+The [`ngr-hands-on/`](./ngr-hands-on/) folder contains the current Python
 practice projects:
 
-- [`learn.py`](./python-learning/learn.py) — a small introduction to loops,
+- [`learn.py`](./ngr-hands-on/learn.py) — a small introduction to loops,
   conditionals, and list comprehensions.
-- [`learn.ipynb`](./python-learning/learn.ipynb) — a notebook for interactive
+- [`learn.ipynb`](./ngr-hands-on/learn.ipynb) — a notebook for interactive
   Python experiments.
-- [`grade_manager.py`](./python-learning/grade_manager.py) — collects student
+- [`grade_manager.py`](./ngr-hands-on/grade_manager.py) — collects student
   marks, validates input, assigns grades, and calculates summary statistics.
-- [`tic_tac_toe.py`](./python-learning/tic_tac_toe.py) — a command-line game
+- [`tic_tac_toe.py`](./ngr-hands-on/tic_tac_toe.py) — a command-line game
   practicing lists, functions, loops, and game logic.
-- [`requirements.txt`](./python-learning/requirements.txt) — Python packages
+- [`requirements.txt`](./ngr-hands-on/requirements.txt) — Python packages
   for API and HTTP experiments.
 
 ## Get started
@@ -45,9 +45,9 @@ python3 --version
 Run an exercise from the repository root:
 
 ```bash
-python3 python-learning/learn.py
-python3 python-learning/grade_manager.py
-python3 python-learning/tic_tac_toe.py
+python3 ngr-hands-on/learn.py
+python3 ngr-hands-on/grade_manager.py
+python3 ngr-hands-on/tic_tac_toe.py
 ```
 
 The current exercises use Python's standard library. When you start working
@@ -57,7 +57,7 @@ install them with:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r python-learning/requirements.txt
+python -m pip install -r ngr-hands-on/requirements.txt
 ```
 
 On Windows, activate the environment with `.venv\Scripts\activate` instead.

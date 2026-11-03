@@ -67,3 +67,4 @@ logs/
 # ---------- Miscellaneous ----------
 learn.py
 learn.ipynb
+*.zip
